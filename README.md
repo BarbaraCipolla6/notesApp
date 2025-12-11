@@ -35,8 +35,8 @@ The backend follows a layered architecture:
 
 ### 1. Clone the repository
 ```bash
-git clone <repository-url>
-cd notes_app
+git clone <git@github.com:BarbaraCipolla6/notesApp.git>
+cd notesApp
 ```
 
 ### 2. Configure PostgreSQL
