@@ -11,7 +11,7 @@ app.use(express.json())
 // Routes
 app.use(noteRoutes)
 
-const PORT = process.env.PORT || 8080
+const PORT = Number(process.env.PORT) || 8080
 
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Servidor escuchando en el puerto :${PORT}`)
