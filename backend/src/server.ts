@@ -11,7 +11,7 @@ app.use(express.json())
 // Routes
 app.use(noteRoutes)
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8080
 
 app.listen(PORT, () => {
   console.log(`API corriendo en http://localhost:${PORT}`)
